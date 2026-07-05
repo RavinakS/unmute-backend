@@ -1,0 +1,8 @@
+### Health Check
+GET http://localhost:4000/health
+
+### Create Test User
+POST http://localhost:4000/users/test
+Content-Type: application/json
+
+{"name": "Ravina", "email":"ravina@test.com"}
